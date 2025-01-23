@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    width: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #121212;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h4 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p, li {
+    color: gray;
+    margin: 0;
+}
+
+p {
+    padding: 0.3rem 0;
+}
+
+p.date {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    padding: 3rem 0;
+    max-width: 920px;
+    margin: 3rem auto;
+    border: 1px solid beige;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+}
+
+.personnel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: end;
+}
+
+.personnel .profil {
+    width: 80%;
+    border: 1px solid #000;
+    margin-left: 20%;
+}
+
+.personnel .icon {
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+.personnel .contact-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.professionnel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: start;
+}
